@@ -1,4 +1,5 @@
 export EDITOR=nvim
+export PATH="$PATH:$HOME/.composer/vendor/bin"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
@@ -8,6 +9,7 @@ alias dotfile='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias n=nvim
 alias la="ls -A"
 alias mkdir="mkdir -pv"
+alias sudo="sudo " # allows sudo in front of other aliases
 
 # start long running programs
 function run {
