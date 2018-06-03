@@ -29,7 +29,7 @@ alias :e="nvim"
 alias mcd=make_and_cd
 
 alias config:vim="nvim $HOME/.vimrc"
-alias confiv:zsh="nvim $HOME/.zshrc"
+alias config:zsh="nvim $HOME/.zshrc"
 alias config:tmux="nvim $HOME/.tmux.conf"
 alias config:kitty="nvim $HOME/.config/kitty/kitty.conf"
 
