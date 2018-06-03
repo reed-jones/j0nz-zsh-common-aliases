@@ -26,6 +26,7 @@ alias tmux_='tmux -2u a || tmux -2u'
 
 # where am I?
 alias :wq="exit"
+alias :q="exit"
 alias :e="nvim"
 
 alias mcd=make_and_cd
