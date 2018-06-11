@@ -26,6 +26,7 @@ alias tmax='tmux a || tmux'
 
 # where am I?
 alias :wq="exit"
+alias :q="exit"
 alias :e="nvim"
 
 alias mcd=make_and_cd
