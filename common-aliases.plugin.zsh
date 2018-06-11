@@ -22,7 +22,7 @@ function make_and_cd() {
 }
 
 # connect to previous session if available, or create new
-alias tmux_='tmux -2u a || tmux -2u'
+alias tmax='tmux a || tmux'
 
 # where am I?
 alias :wq="exit"
