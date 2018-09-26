@@ -38,3 +38,14 @@ alias config:kitty="nvim $HOME/.config/kitty/kitty.conf"
 
 alias ping3='ping -c3'
 alias ping5='ping -c5'
+
+git_issue_fixr() {
+  num=$1;
+  shift;
+  rest=$@;
+  git add .;
+  git commit -m "fixes #$num - $rest";
+  git push;
+}
+
+alias fixr=git_issue_fixr
