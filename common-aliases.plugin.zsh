@@ -10,6 +10,7 @@ alias n=nvim
 alias la="ls -A"
 alias mkdir="mkdir -pv"
 alias sudo="sudo " # allows sudo in front of other aliases
+alias didi="history | grep " # did i?
 
 # start long running programs
 function run {
