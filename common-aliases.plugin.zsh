@@ -30,7 +30,7 @@ alias :wq="exit"
 alias :q="exit"
 alias :e="nvim"
 
-alias mcd=make_and_cd
+alias mkcd=make_and_cd
 
 alias config:vim="nvim $HOME/.vimrc"
 alias config:zsh="nvim $HOME/.zshrc"
